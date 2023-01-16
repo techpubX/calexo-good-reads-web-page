@@ -57,6 +57,7 @@
   }
 
     .favicon {
+      
         margin-top:100px;
     }
 
@@ -69,12 +70,14 @@
   }
 
   h1 {
+    
     color: white;
     font-size:25px;
      font-family:courier;
     }
 
-  h2{ 
+  h2 { 
+    
     font-size:25px;
     font-family:arial sans serif;
      }   
