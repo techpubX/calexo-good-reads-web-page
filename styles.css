@@ -110,15 +110,17 @@
     }
 
     .box {
-
         background-color:maroon;
         color:white;
         width:300px;
         border: 15px solid white;
         padding: 50px;
         margin: 20px;
+        display: flex
+        justify-content: center;
+        align-items:center;
+       }
 
-    }
 
   h3 {
 
