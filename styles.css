@@ -1,0 +1,179 @@
+  header {
+    background-color:maroon;opacity:2;
+    position: sticky;
+    top: 5px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: courier;
+    margin-top: 25px;
+    margin-right:0;
+    margin-left:0;
+  }
+
+  header * {
+    display: inline;
+    text-decoration: none;
+  }
+
+  /* These styles make it appear at the top of the page, on scroll, the Js script at the end of this
+  document will remove this class and the div will assume it's position within the page
+  */
+
+  .active {
+    position:fixed; 
+    top:0;
+  }
+
+  header li {
+
+    margin: 21px;
+
+    text-decoration: none;
+
+  }
+
+  header li a {
+
+    color: white;
+
+    text-decoration: none;
+  }
+
+  ul {
+
+    margin: 0;
+    padding: 0;
+  }
+
+
+  ul,
+  ol {
+
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
+    .favicon {
+        margin-top:100px;
+    }
+
+  body {
+    text-decoration: none;
+    overflow-x: hidden;
+    margin: 2;
+    padding: 13px;
+    background-color:grey;opacity:2;
+  }
+
+  h1 {
+    color: white;
+    font-size:25px;
+     font-family:courier;
+    }
+
+  h2{ 
+    font-size:25px;
+    font-family:arial sans serif;
+     }   
+   
+
+   .active{
+  background-color:maroon;opacity:1;
+  margin-top:0px;
+  color:white;
+  height:64px;
+  font-size:140%;
+  padding:3px;
+  text-align:center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  }
+
+    .order {
+
+        background-color:maroon;
+        margin-top:0px;
+        color:white;
+        height:64px;
+        font-size:140%;
+        text-align:center;
+        width: 100%;
+        left: 0;
+        right: 0; 
+    }
+
+    .box {
+
+        background-color:maroon;
+        color:white;
+        width:300px;
+        border: 15px solid white;
+        padding: 50px;
+        margin: 20px;
+
+    }
+
+  h3 {
+
+   color: maroon;
+   font-size: 23px;
+
+  }
+
+  h4 {
+
+    color: maroon;
+    font-size: 23px;
+  }
+
+  p {
+
+    color:white;
+
+    font-family:arial sans serif;
+    
+    }
+
+  table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+
+  td,
+  th {
+
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+    border-color: #96D4D4;
+
+  }
+
+  tr:nth-child(even) {
+
+    background-color: #dddddd;
+
+  }
+
+  tr:hover {
+
+    background-color: maroon;opacity:2;
+
+  }
+
+  .footer {
+    background-color:maroon;
+    opacity:1.5;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:7px;
+    margin-bottom:40px
+  }
