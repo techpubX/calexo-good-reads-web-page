@@ -62,6 +62,7 @@ header {
   }
 
     .logo {
+      
         margin-top:100px;
         width:100px;
         height:100px;
@@ -116,6 +117,7 @@ header {
     }
 
     .box {
+      
         display:flex;
         flex-direction:row;
         flex-wrap:wrap;
@@ -124,12 +126,12 @@ header {
        }
 
     .image {
-           width:150px;
-           height:100px;
+           width:200px;
+           height:200px;
            padding-left: 100px;
            padding-right: 120px;
            padding-top: 50px;
-           padding-bottom: 10px;
+           padding-bottom: 5px;
         }
 
 .Collection 1, .Collection 2, .Collection 3, .Collection 4 {
@@ -138,7 +140,7 @@ header {
       height: 900px;
       margin: 200px;
     }
-.Summary {
+.descript {
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
     color: #FOF8FF;
@@ -154,11 +156,11 @@ header {
     height: 50px;
     margin: 5px;
     font-size:20px;
-    font-weight: bold;
-    border: 5px solid #0000FF;
+    font-weight: light;
+    border: 5px solid maroon;opacity 2
     border-radius: 5px;
     background-color:rgb(255, 173, 8) ;
-    
+    color:white;
 }
 
  h3 {
@@ -176,7 +178,7 @@ header {
 
   p {
 
-    color:#FOFFFF;
+    color:aliceblue;
 
     font-family:arial sans serif;
     
@@ -220,5 +222,5 @@ header {
     padding:30px;
     margin-top:7px;
     margin-bottom:40px;
-    Width: 100%;
+    width: 100%;
   }
