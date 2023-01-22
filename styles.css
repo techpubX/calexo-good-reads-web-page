@@ -61,9 +61,10 @@ header {
     margin-bottom: 25px;
   }
 
-    .favicon {
-      
-            margin-top:100px;
+    .logo{
+        margin-top:100px;
+        width:100px;
+        height:100px;
     }
 
   body {
@@ -78,7 +79,7 @@ header {
     
     color: #FFFFFF;
     font-size:25px;
-     font-family:courier;
+    font-family:courier;
     }
 
   h2 { 
@@ -102,7 +103,6 @@ header {
   }
 
     .order {
-
         background-color:#800000;
         margin-top:0px;
         color:#FFFFFF;
@@ -133,7 +133,7 @@ header {
 
 .Collection 1, Collection 2, Collection 3, Collection 4 {
       background-color:(rgb 120, 127, 127);
-      width: 500px;
+      width:  500px;
       height: 900px;
       margin: 200px;
     }
