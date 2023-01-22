@@ -3,7 +3,7 @@ html {
 }
 
 header {
-    background-color:maroon;opacity:2;
+    background-color:#800000;opacity:2;
     position: sticky;
     top: 5px;
     height: 50px;
@@ -42,7 +42,7 @@ header {
 
   header li a {
 
-    color: white;
+    color: #FFFFFF;
 
     text-decoration: none;
   }
@@ -63,7 +63,7 @@ header {
 
     .favicon {
       
-        margin-top:100px;
+            margin-top:100px;
     }
 
   body {
@@ -71,12 +71,12 @@ header {
     overflow-x: hidden;
     margin: 2;
     padding: 13px;
-    background-color:grey;opacity:2;
+    background-color:#808080;opacity:2;
   }
 
   h1 {
     
-    color: white;
+    color: #FFFFFF;
     font-size:25px;
      font-family:courier;
     }
@@ -85,13 +85,13 @@ header {
     
     font-size:25px;
     font-family:arial sans serif;
-     }   
+   }
    
 
    .active{
-  background-color:maroon;opacity:1;
+  background-color:#800000;opacity:1;
   margin-top:0px;
-  color:white;
+  color:#FFFFFF;
   height:64px;
   font-size:140%;
   padding:3px;
@@ -103,9 +103,9 @@ header {
 
     .order {
 
-        background-color:maroon;
+        background-color:#800000;
         margin-top:0px;
-        color:white;
+        color:#FFFFFF;
         height:64px;
         font-size:140%;
         text-align:center;
@@ -115,31 +115,42 @@ header {
     }
 
     .box {
-        background-color:maroon;
-        color:white;
-        width:300px;
-        border: 15px solid white;
-        padding: 50px;
-        margin: 20px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
        }
+
+    .image {
+           width:100px;
+           height:100px;
+           padding-left: 100px;
+           padding-right: 120px;
+           padding-top: 50px;
+           padding-bottom: 10px;
+        }
+
+  
+    
 
 
   h3 {
 
-   color: maroon;
+   color: #800000;
    font-size: 23px;
 
   }
 
   h4 {
 
-    color: maroon;
+    color: #800000;
     font-size: 23px;
   }
 
   p {
 
-    color:white;
+    color:#FOFFFF;
 
     font-family:arial sans serif;
     
@@ -171,14 +182,14 @@ header {
 
   tr:hover {
 
-    background-color: maroon;opacity:2;
+    background-color: #800000;opacity:2;
 
   }
 
   .footer {
-    background-color:maroon;
+    background-color:#800000;
     opacity:1.5;
-    color:white;
+    color:#FFFFFF;
     text-align:center;
     padding:30px;
     margin-top:7px;
