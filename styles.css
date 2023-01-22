@@ -1,4 +1,5 @@
 html {
+  
   scroll-behavior:smooth;
 }
 
@@ -134,7 +135,7 @@ header {
            padding-bottom: 5px;
         }
 
-.Collection 1, .Collection 2, .Collection 3, .Collection 4 {
+.Collection1, .Collection2, .Collection3, .Collection4 {
       background-color:(rgb 120, 127, 127);
       width:  500px;
       height: 900px;
@@ -159,7 +160,7 @@ header {
     font-weight: light;
     border: 5px solid maroon;opacity 2
     border-radius: 5px;
-    background-color:rgb(255, 173, 8) ;
+    background-color:80000;
     color:white;
 }
 
@@ -177,10 +178,10 @@ header {
   }
 
   p {
-
+    
     color:aliceblue;
 
-    font-family:arial sans serif;
+    font-family:'Courier New', Courier, monospace;
     
     }
 
