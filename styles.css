@@ -1,9 +1,11 @@
 html {
   
   scroll-behavior:smooth;
+  
 }
 
 header {
+  
     background-color:#800000;opacity:2;
     position: sticky;
     top: 5px;
@@ -17,6 +19,7 @@ header {
     margin-right:0;
     margin-left:0;
     width:100%;
+  
   }
 
   header * {
@@ -49,6 +52,7 @@ header {
   }
 
   ul {
+    
     width:100%;
     margin: 0;
     padding: 0;
@@ -70,30 +74,37 @@ header {
     }
 
   body {
+    
     text-decoration: none;
     overflow-x: hidden;
     margin: 2;
     padding: 13px;
     background-color:#808080;opacity:2;
     width:100%;
+    
   }
 
   h1 {
     
     color: #FFFFFF;
     font-size:25px;
-    font-family:courier;
+    font-family:'Courier New', Courier, monospace;
+  
     }
 
   h2 { 
     
     font-size:25px;
+    
     font-family:arial sans serif;
+    
    }
    
 
-   .active{
+   .active {
+     
   background-color:#800000;opacity:1;
+  font-family:arial sans serif;
   margin-top:0px;
   color:#FFFFFF;
   height:64px;
@@ -103,6 +114,7 @@ header {
   width: 100%;
   left: 0;
   right: 0;
+     
   }
 
     .order {
@@ -142,6 +154,7 @@ header {
       margin: 200px;
     }
 .descript {
+  
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
     color: #FOF8FF;
@@ -160,7 +173,7 @@ header {
     font-weight: light;
     border: 5px solid maroon;opacity 2
     border-radius: 5px;
-    background-color:80000;
+    background-color:#800000;
     color:white;
 }
 
@@ -216,6 +229,7 @@ header {
   }
 
   .footer {
+    
     background-color:#800000;
     opacity:1.5;
     color:#FFFFFF;
@@ -224,4 +238,5 @@ header {
     margin-top:7px;
     margin-bottom:40px;
     width: 100%;
+    
   }
