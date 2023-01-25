@@ -94,7 +94,7 @@ header {
 
   h2 { 
     
-    font-size:25px;
+    font: size 20px;
     
     font-family:arial sans serif;
     
@@ -157,7 +157,7 @@ header {
   
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
-    color: #FOF8FF;
+    color: #ffff;
     padding-top: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -171,7 +171,8 @@ header {
     margin: 5px;
     font-size:20px;
     font-weight: light;
-    border: 5px solid maroon;opacity 2
+    border: 5px solid maroon; 
+    opacity: 2;
     border-radius: 5px;
     background-color:#800000;
     color:white;
