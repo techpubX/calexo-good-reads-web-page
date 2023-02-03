@@ -66,26 +66,76 @@ header {
     margin-bottom: 25px;
   }
 
-    .logo {
-      
-        margin-top:100px;
-        width:100px;
-        height:100px;
-    }
-
   body {
-    
     text-decoration: none;
     overflow-x: hidden;
     margin: 2;
     padding: 13px;
     background-color:#808080;opacity:2;
     width:100%;
-    
-  }
+    }
 
-  h1 {
-    
+.logo  {
+      
+        margin-top:100px;
+        width:100px;
+        height:100px;
+    }
+
+.search-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #666666;
+        transform: translate(-50%, -50%);
+        height: 50px;
+        border-radius: 40px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:250px;
+      }
+      .search-box:hover > .search-txt {
+        width: 240px;
+        padding: 0 6px;
+      }
+      .search-box:hover > .search-btn {
+        background: #FFFFFF;
+        color: 000000;
+      }
+      .search-btn {
+        color: #eeeeee;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #2f3640;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        color: #FFFFFF;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .search-btn > i {
+        font-size: 20px;
+      }
+      .search-txt {
+        border: none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: #FFFFFF;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;
+        font-weight: bold;
+      }
+    }
+
+h1 {
+  
     color: #FFFFFF;
     font-size:25px;
     font-family:'Courier New', Courier, monospace;
@@ -147,12 +197,13 @@ header {
            padding-bottom: 5px;
         }
 
-.Collection1, .Collection2, .Collection3, .Collection4 {
+.Book1, .Book2, .Book3, .Book4, .Book5, .Book6, .Book7, .Book8, .Book9, .Book9, .Book10, .Book11, .Book12, {
       background-color:(rgb 120, 127, 127);
       width:  500px;
       height: 900px;
       margin: 200px;
     }
+
 .descript {
   
     font-family: 'Courier New', Courier, monospace;
@@ -171,11 +222,11 @@ header {
     margin: 5px;
     font-size:20px;
     font-weight: light;
-    border: 5px solid maroon; 
+    border: 5px solid #800000; 
     opacity: 2;
     border-radius: 5px;
     background-color:#800000;
-    color:white;
+    color:#FFFFFF;
 }
 
  h3 {
