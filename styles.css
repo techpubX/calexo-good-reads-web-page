@@ -56,6 +56,7 @@ header {
     width:100%;
     margin: 0;
     padding: 0;
+    
   }
 
 
@@ -73,6 +74,7 @@ header {
     padding: 13px;
     background-color:#808080;opacity:2;
     width:100%;
+    
     }
 
 .logo  {
@@ -104,6 +106,7 @@ header {
         background: #FFFFFF;
         color: 000000;
       }
+
       .search-btn {
         color: #eeeeee;
         width: 40px;
@@ -245,7 +248,7 @@ h1 {
 
   p {
     
-    color:aliceblue;
+    color:#F0F8FF;
 
     font-family:'Courier New', Courier, monospace;
     
