@@ -27,10 +27,6 @@ header {
     text-decoration: none;
   }
 
-  /* These styles make it appear at the top of the page, on scroll, the Js script at the end of this
-  document will remove this class and the div will assume it's position within the page
-  */
-
   .active {
     position:fixed; 
     top:0;
