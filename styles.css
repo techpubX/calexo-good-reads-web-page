@@ -1,248 +1,254 @@
 html {
-  
-  scroll-behavior:smooth;
-  
+
+  scroll-behavior: smooth;
+
 }
 
 header {
-  
-    background-color:#800000;opacity:2;
-    position: sticky;
-    top: 5px;
-    height: 50px;
-    display: flex;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-family: courier;
-    margin-top: 25px;
-    margin-right:0;
-    margin-left:0;
-    width:100%;
-  
-  }
+  margin-top: 1%;
+  background-color:#800000;
+  opacity:2;
+  padding: 8px 5px;
+  color: #FFFFFF;
+  text-align: center;
+}
 
-  header * {
-    display: inline;
-    text-decoration: none;
-  }
+header li {
 
-  /* These styles make it appear at the top of the page, on scroll, the Js script at the end of this
-  document will remove this class and the div will assume it's position within the page
-  */
+  margin: 10px;
 
-  .active {
-    position:fixed; 
-    top:0;
-  }
+  text-decoration: none;
 
-  header li {
+}
 
-    margin: 21px;
+.logo  {
 
-    text-decoration: none;
+  width: 230px;
+  height: 230px;
+  margin-top: 20px;
 
-  }
-
-  header li a {
-
-    color: #FFFFFF;
-
-    text-decoration: none;
-  }
-
-  ul {
-    
-    width:100%;
-    margin: 0;
-    padding: 0;
-  }
+}
 
 
-  ul,
-  ol {
+.search-box {
 
-    margin-top: 0;
-    margin-bottom: 25px;
-  }
+  margin-top: -1%;
+  padding-left: 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:250px;
 
-    .favicon {
-      
-        margin-top:100px;
-        width:100px;
-        height:100px;
+}
 
-    }
+.navigation { 
+  background-color:#800000;
+  opacity: 2;
+  padding: 8px 0;
+  margin-top: 15px; 
+}
 
-  body {
-    
-    text-decoration: none;
-    overflow-x: hidden;
-    margin: 2;
-    padding: 13px;
-    background-color:#808080;opacity:2;
-    width:100%;
-    
-  }
+nav>ul {
+  margin-left: 10%;
+  width:100%;
+}
 
-  h1 {
-    
-    color: #FFFFFF;
-    font-size:25px;
-    font-family: 'Courier New', Courier, monospace;
-  
-    }
+nav li a {
 
-  h2 { 
-    
-    font: size 20px;
-    
-    font-family: arial sans serif;
+  color: #FFFFFF;
 
-    color:#ffff;
-    
-   }
-   
+  text-decoration: none;
 
-   .active {
-     
-  background-color:#800000;opacity:1;
+  text-align: center;
+
+
+}
+
+nav>ul>li{
+  list-style: none;
+  display: inline;
+  padding-right: 3%;
+  color: aliceblue;
+}
+
+body {
+  text-decoration: none;
+  overflow-x: hidden;
+  margin: 2;
+  padding: 13px;
+  background-color: #666666;
+  opacity: 2;
+  width: 100%;
+
+}
+
+h1 {
+
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+
+  font: size 20px;
+
   font-family: arial sans serif;
-  margin-top:0px;
-  color:#FFFFFF;
-  height:64px;
-  font-size:160%;
-  padding:3px;
-  text-align:center;
+
+  color: #ffff;
+
+}
+
+.order {
+
+  background-color: #800000;
+  margin-top: 50px;
+  color: #FFFFFF;
+  height: 64px;
+  font-size: 140%;
+  text-align: center;
   width: 100%;
   left: 0;
   right: 0;
-     
-  }
 
-    .order {
-        background-color:#800000;
-        margin-top:50px;
-        color:#FFFFFF;
-        height:64px;
-        font-size:140%;
-        text-align:center;
-        width:100%;
-        left: 0;
-        right: 0; 
-    }
+}
+  
 
-    .box {
-      
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items:center;
-       }
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-    .image {
+.image {
 
-           width:200px;
-           height:200px;
-           padding-left: 100px;
-           padding-right: 120px;
-           padding-top: 50px;
-           padding-bottom: 5px;
-        }
+  width: 200px;
+  height: 200px;
+  padding-left: 100px;
+  padding-right: 120px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
 
-.Collection1, .Collection2, .Collection3, .Collection4 {
-      background-color:(rgb 120, 127, 127);
-      width:  500px;
-      height: 900px;
-      margin: 200px;
-    }
+.book1,
+.book2,
+.book3,
+.book4,
+.book5,
+.book6,
+.book7,
+.book8,
+.book9,
+.book9,
+.book10,
+.book11,
+.book12,
+.book13 {
+  background-color: (rgb 120, 127, 127);
+  width: 500px;
+  height: 900px;
+  margin: 200px;
+
+}
+
+
+
 
 .descript {
-  
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    color: #ffff;
-    padding-top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 0px;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  color: aliceblue;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
 }
 
 .btn {
-  
-    width: 100px;
-    height: 50px;
-    margin: 5px;
-    font-size:20px;
-    font-weight: light;
-    border: 5px solid maroon; 
-    opacity: 2;
-    border-radius: 5px;
-    background-color:#800000;
-    color:white;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: light;
+  border: 5px solid maroon;
+  opacity: 2;
+  border-radius: 5px;
+  background-color: #800000;
+  color: white;
+  width: 100px;
 }
 
- h3 {
+h3 {
 
-   color: #800000;
-   font-size: 23px;
+  color: #800000;
+  font-size: 23px;
 
-  }
+}
 
-  h4 {
+h4 {
 
-    color: #800000;
-    font-size: 23px;
-  }
+  color: #800000;
+  font-size: 23px;
+}
 
-  p {
-    
-    color:aliceblue;
+p {
 
-    font-family:'Courier New', Courier, monospace;
-    
-    }
+  color: aliceblue;
 
-  table {
 
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
 
-  }
+}
 
-  td,
-  th {
+table {
 
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 15px;
-    border-color: #96D4D4;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 
-  }
+}
 
-  tr:nth-child(even) {
+td,
+th {
 
-    background-color: #dddddd;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+  border-color: #96D4D4;
 
-  }
+}
 
-  tr:hover {
+tr:nth-child(even) {
 
-    background-color: #800000;opacity:2;
+  background-color: #dddddd;
 
-  }
+}
 
-  .footer {
-    
-    background-color:#800000;
-    opacity:1.5;
-    color:#FFFFFF;
-    text-align:center;
-    padding:30px;
-    margin-top:7px;
-    margin-bottom:40px;
-    width: 100%;
-    
-  }
+tr:hover {
+
+  background-color: #800000;
+  opacity: 2;
+
+}
+
+.footer {
+
+  background-color: #000000;
+  opacity: 1.5;
+  color: aliceblue;
+  text-align: center;
+  padding: 90px;
+  margin-top: 7px;
+  margin-bottom: 40px;
+  width: 100%;
+  bottom: 0;
+  height: 140px;
+}
