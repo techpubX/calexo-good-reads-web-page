@@ -4,13 +4,27 @@ html {
 
 }
 
+button {   
+  background-color:#800000;   
+  width: 100%;  
+  color: aliceblue;   
+  padding: 15px;   
+  margin: 10px 0px;   
+  border: none;   
+  cursor: pointer;
+} 
+ 
+
 header {
+
   margin-top: 1%;
   background-color:#800000;
   opacity:2;
   padding: 8px 5px;
   color: #FFFFFF;
   text-align: center;
+  font-size: 15px;
+
 }
 
 header li {
@@ -23,40 +37,32 @@ header li {
 
 .logo  {
 
-  width: 230px;
-  height: 230px;
-  margin-top: 20px;
+  margin-top: 4%;
+  padding-left:4%;
 
 }
 
 
-.search-box {
+.search-icon {
 
-  margin-top: -1%;
-  padding-left: 5%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 50px;
-  width: 150px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom:250px;
-
+  margin-top: 4%;
+  padding-left:50%;
+  margin-bottom: 4%;
 }
 
 .navigation { 
+
   background-color:#800000;
   opacity: 2;
   padding: 8px 0;
-  margin-top: 15px; 
-}
+  margin-top: 4%;
+  }
 
 nav>ul {
+
   margin-left: 10%;
   width:100%;
+
 }
 
 nav li a {
@@ -177,7 +183,7 @@ h2 {
 .btn {
   height: 50px;
   margin: 5px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: light;
   border: 5px solid maroon;
   opacity: 2;
