@@ -147,6 +147,7 @@ h5{
 }
 
 .order {
+
   padding: 25px 5px;
   background-color: #800000;
   margin-top: 50px;
@@ -157,6 +158,7 @@ h5{
   width: 100%;
   left: 0;
   right: 0;
+  margin-bottom: 50px;
 
 }
   
@@ -170,13 +172,15 @@ h5{
   align-items: center;
 }
 
-.image {
-  width: 200px;
-  height: 200px;
+.image{
+
+  width: 128px;
+  height: 128px;
   padding-left: 100px;
   padding-right: 120px;
   padding-top: 50px;
   padding-bottom: 5px;
+
 }
 
 .book1
@@ -199,7 +203,7 @@ h5{
 .book17
 .book18{
   background-color: (rgb 120, 127, 127);
-  width: 500px;
+  width: 200px;
   height: 900px;
   margin: 200px;
 }
