@@ -47,6 +47,7 @@ header li {
 }
 
 .container {
+
   box-sizing: border-box;
   margin-bottom: 10PX;
   width: 100%;
@@ -58,12 +59,14 @@ header li {
 }
 
 nav {
+
   display: flex;
   background: #800000;
   border-radius: 50px;
   padding: 10px;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.863);
   transition: 0.35s;
+
 }
 
 nav ul li {
@@ -71,7 +74,7 @@ nav ul li {
   list-style: none;
   display: inline-block;
   padding: 0.35px 35px;
-  margin: -0.5px;
+  margin: -0.3px;
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
@@ -144,7 +147,7 @@ h5{
 }
 
 .order {
-
+  padding: 25px 5px;
   background-color: #800000;
   margin-top: 50px;
   color: #FFFFFF;
@@ -158,8 +161,8 @@ h5{
 }
   
 
-.box1 {
-
+.box {
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -176,20 +179,20 @@ h5{
   padding-bottom: 5px;
 }
 
-.book1,
-.book2,
-.book3,
-.book4,
-.book5,
-.book6,
-.book7,
-.book8,
-.book9,
-.book9,
-.book10,
-.book11,
-.book12,
-.book13,
+.book1
+.book2
+.book3
+.book4
+.book5
+.book6
+.book7
+.book8
+.book9
+.book9
+.book10
+.book11
+.book12
+.book13
 .book14
 .book15
 .book16
