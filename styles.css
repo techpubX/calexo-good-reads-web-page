@@ -59,7 +59,7 @@ header li {
 }
 
 nav {
-
+  color:#fff;
   display: flex;
   background: #800000;
   border-radius: 50px;
@@ -69,13 +69,26 @@ nav {
 
 }
 
-nav ul li {
+nav li a {
+
+  color:#dddddd;
+
+  text-decoration: none;
+
+  text-align: center;
+  
+
+}
+
+nav>ul>li{
+  color: #fff;
+  padding: 25px 5px;
   display: flex; 
   list-style: none;
   display: inline-block;
   padding: 0.35px 35px;
   margin: -0.3px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   cursor: pointer;
   z-index: 3;
@@ -88,9 +101,10 @@ nav ul li::after {
   display: flex;
   content: "";
   background: #fff;
+  color: #FFFFFF;
   width: 100%;
   height: 100%;
-  border-radius: 30px;
+  border-radius: 5px;
   position: absolute;
   border-radius: 50px;
   top: 50%;
@@ -107,7 +121,7 @@ nav ul li:hover {
 
 nav ul li:hover::after {
   top: 50%;
-  opacity: 1;
+  opacity: 2;
 }
 
 
@@ -172,10 +186,10 @@ h5{
   align-items: center;
 }
 
-.image{
+.image {
 
-  width: 128px;
-  height: 128px;
+  width: 200px;
+  height: 200px;
   padding-left: 100px;
   padding-right: 120px;
   padding-top: 50px;
@@ -192,7 +206,6 @@ h5{
 .book7
 .book8
 .book9
-.book9
 .book10
 .book11
 .book12
@@ -201,7 +214,9 @@ h5{
 .book15
 .book16
 .book17
-.book18{
+.book18
+.book19 {
+
   background-color: (rgb 120, 127, 127);
   width: 200px;
   height: 900px;
@@ -307,7 +322,8 @@ tr:hover {
 .search-container {
   position: relative; 
   top: -250px; 
-  width: 400px;
+  width: 300px;
+  height: 40PX;
   margin-top:6px;
   margin-left:350px;
   margin-bottom:30px;
@@ -320,8 +336,8 @@ input {
 }
 .search-icon {
   background-color:#800000;
-  width: 18px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-right:1px;
   margin-top: 15px;
 }
