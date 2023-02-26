@@ -46,19 +46,8 @@ header li {
   font-family: "Rubik", sans-serif;
 }
 
-.container {
-
-  box-sizing: border-box;
-  margin-bottom: 10PX;
-  width: 100%;
-  height: 20vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30PX;
-}
-
 nav {
+
   color:#fff;
   display: flex;
   background: #800000;
@@ -66,6 +55,8 @@ nav {
   padding: 10px;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.863);
   transition: 0.35s;
+  margin-top: 5px;
+
 
 }
 
@@ -82,20 +73,20 @@ nav li a {
 
 nav>ul>li{
   color: #fff;
-  padding: 25px 5px;
   display: flex; 
   list-style: none;
   display: inline-block;
-  padding: 0.35px 35px;
   margin: -0.3px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   z-index: 3;
   position: relative;
   transition: color 0.5s;
-
+  padding-right: 35px;
+  padding-left: 35px;
 }
+
 
 nav ul li::after {
   display: flex;
@@ -245,6 +236,11 @@ h5{
   background-color: #800000;
   color: white;
   width: 100px;
+
+}
+
+.btn:hover {
+  color:#fff;
 }
 
 h3 {
@@ -346,4 +342,8 @@ input {
   width: 70px;
   background-color:#800000;opacity:2;
   color: #ffffff;
+}
+
+.submit hover {
+  color: #fff;
 }
