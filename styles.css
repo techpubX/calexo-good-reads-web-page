@@ -1,17 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
 html {
 
 
-scroll-behavior: smooth;
-  
+  scroll-behavior: smooth;
+
 }
 
- 
-header {
 
+header {
   margin-top: 1%;
-  height:100%;
-  background-color:#800000;
-  opacity:2;
+  height: 100%;
+  background-color: #800000;
+  opacity: 2;
   padding: 25px 5px;
   color: #ffffff;
   text-align: center;
@@ -25,30 +31,19 @@ header {
 
 header li {
 
-  margin: 10px;
+  margin: 35px;
 
   text-decoration: none;
 
 }
 
-.logo  {
+.logo {
 
-  margin-top:30px;
-  padding-left:4%;
+  margin-top: 30px;
+  padding-left: 4%;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-}
-
 nav {
-
-  color:#fff;
+  color: #fff;
   display: flex;
   background: #800000;
   border-radius: 50px;
@@ -56,24 +51,21 @@ nav {
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.863);
   transition: 0.35s;
   margin-top: 5px;
-
-
 }
 
 nav li a {
-
-  color:#dddddd;
+  color: #dddddd;
 
   text-decoration: none;
 
   text-align: center;
-  
+
 
 }
 
-nav>ul>li{
+nav>ul>li {
   color: #fff;
-  display: flex; 
+  display: flex;
   list-style: none;
   display: inline-block;
   margin: -0.3px;
@@ -147,12 +139,11 @@ h2 {
 
 }
 
-h5{
+h5 {
   color: #FFFFFF;
 }
 
 .order {
-
   padding: 25px 5px;
   background-color: #800000;
   margin-top: 50px;
@@ -164,17 +155,13 @@ h5{
   left: 0;
   right: 0;
   margin-bottom: 50px;
-
 }
-  
+
 
 .box {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .image {
@@ -188,25 +175,7 @@ h5{
 
 }
 
-.book1
-.book2
-.book3
-.book4
-.book5
-.book6
-.book7
-.book8
-.book9
-.book10
-.book11
-.book12
-.book13
-.book14
-.book15
-.book16
-.book17
-.book18
-.book19 {
+.book1 .book2 .book3 .book4 .book5 .book6 .book7 .book8 .book9 .book10 .book11 .book12 .book13 .book14 .book15 .book16 .book17 .book18 .book19 {
 
   background-color: (rgb 120, 127, 127);
   width: 200px;
@@ -240,7 +209,7 @@ h5{
 }
 
 .hover {
-  color:#fff;
+  color: #fff;
 }
 
 h3 {
@@ -257,7 +226,7 @@ h4 {
 }
 
 p {
-color: aliceblue
+  color: aliceblue
 }
 
 table {
@@ -290,15 +259,17 @@ tr:hover {
   opacity: 2;
 
 }
+
 .search-box {
-  position:-ms-page;
+  position: -ms-page;
   background: #FFFFFF;
   height: 40px;
   border-radius: 40px;
   padding: 10px;
-  
+
 }
-.search-box:hover > .search-txt {
+
+.search-box:hover>.search-txt {
   width: 240px;
   padding: 0 6px;
 }
@@ -316,13 +287,13 @@ tr:hover {
 }
 
 .search-container {
-  position: relative; 
-  top: -250px; 
+  position: relative;
+  top: -250px;
   width: 300px;
   height: 40PX;
-  margin-top:6px;
-  margin-left:350px;
-  margin-bottom:30px;
+  margin-top: 6px;
+  margin-left: 350px;
+  margin-bottom: 30px;
 }
 
 input {
@@ -330,17 +301,19 @@ input {
   border: 0;
   font-size: 16px;
 }
+
 .search-icon {
-  background-color:#800000;
+  background-color: #800000;
   width: 15px;
   height: 15px;
-  margin-right:1px;
+  margin-right: 1px;
   margin-top: 15px;
 }
 
 .submit {
   width: 70px;
-  background-color:#800000;opacity:2;
+  background-color: #800000;
+  opacity: 2;
   color: #ffffff;
 }
 
