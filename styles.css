@@ -23,11 +23,7 @@ header {
   text-align: center;
   font-size: 20px;
   font-family: Arial, sans-serif;
-
-
 }
-
-
 
 header li {
 
@@ -58,9 +54,7 @@ nav li a {
 
   text-decoration: none;
 
-  text-align: center;
-
-
+  text-align: center
 }
 
 nav>ul>li {
@@ -157,24 +151,11 @@ h5 {
   margin-bottom: 50px;
 }
 
-
 .box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-.image {
-
-  width: 200px;
-  height: 200px;
-  padding-left: 100px;
-  padding-right: 120px;
-  padding-top: 50px;
-  padding-bottom: 5px;
-
-}
-
 .book1 .book2 .book3 .book4 .book5 .book6 .book7 .book8 .book9 .book10 .book11 .book12 .book13 .book14 .book15 .book16 .book17 .book18 .book19 {
 
   background-color: (rgb 120, 127, 127);
