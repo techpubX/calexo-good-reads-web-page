@@ -12,6 +12,18 @@ html {
 
 }
 
+body {
+
+  text-decoration: none;
+  overflow-x: hidden;
+  margin: 2;
+  padding: 13px;
+  background-color: #666666;
+  opacity: 2;
+  width: 100%;
+  height: 100%;
+
+}
 
 header {
   margin-top: 1%;
@@ -99,20 +111,6 @@ nav ul li:hover {
 nav ul li:hover::after {
   top: 50%;
   opacity: 2;
-}
-
-
-body {
-
-  text-decoration: none;
-  overflow-x: hidden;
-  margin: 2;
-  padding: 13px;
-  background-color: #666666;
-  opacity: 2;
-  width: 100%;
-  height: 100%;
-
 }
 
 h1 {
