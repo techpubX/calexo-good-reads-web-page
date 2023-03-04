@@ -151,18 +151,28 @@ h5 {
   margin-bottom: 50px;
 }
 
-.box {
+.container {
+
+  width:900px; 
+  margin:auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.book1 .book2 .book3 .book4 .book5 .book6 .book7 .book8 .book9 .book10 .book11 .book12 .book13 .book14 .book15 .book16 .book17 .book18 .book19 {
+  padding-right: 5%;
+  padding-top: 5%;
+  padding: bottom 1px;
+} 
 
-  background-color: (rgb 120, 127, 127);
-  width: 200px;
-  height: 900px;
-  margin: 200px;
+.col {
+
+width: 40%; 
+
+float:left; 
+ 
+margin:30%
+
 }
+
 
 .descript {
 
