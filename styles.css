@@ -49,7 +49,13 @@ header li {
 
   margin-top: 30px;
   padding-left: 4%;
+  margin-bottom:0;
 }
+
+.Nav_content {
+  padding-top: 5px;
+}
+
 nav {
   color: #fff;
   display: flex;
@@ -58,8 +64,8 @@ nav {
   padding: 10px;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.863);
   transition: 0.35s;
-  margin-top: 5px;
 }
+
 
 nav li a {
   color: #dddddd;
@@ -156,6 +162,7 @@ h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding-right: 5%;
   padding-top: 5%;
   padding: bottom 1px;
@@ -280,7 +287,7 @@ tr:hover {
   top: -250px;
   width: 300px;
   height: 40PX;
-  margin-top: 6px;
+  margin-top: 150px;
   margin-left: 350px;
   margin-bottom: 30px;
 }
