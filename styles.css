@@ -266,8 +266,8 @@ tr:hover {
 
 .footer {
   background-color: black;
-  padding: 8rem 0 3rem;
   color: #fff;
+  margin-top: 80px;
 }
 
 .footer__content {
