@@ -14,6 +14,8 @@ html {
 
 body {
 
+  /* flex-direction: column;
+  display: flex; */
   text-decoration: none;
   overflow-x: hidden;
   margin: 2;
@@ -51,12 +53,16 @@ header li {
   margin-bottom: 2%;
 }
 
-#logo>.search-container>img{
+#logo>.search-container>img {
   height:100;
-  width:70;
+  width: 40px;
   }
 
-
+.search-container{
+  width: 140px;
+  padding-right: 60px;
+  width: 600px;
+}
 
 nav {
   color: #fff;
@@ -164,7 +170,7 @@ h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-right: 5%;
   padding-top: 5%;
   padding: bottom 1px;
@@ -258,57 +264,6 @@ tr:hover {
 
 }
 
-.search-box {
-  position: -ms-page;
-  background: #FFFFFF;
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-
-}
-
-.search-box:hover>.search-txt {
-  width: 240px;
-  padding: 0 6px;
-}
-
-.search-txt {
-  border: none;
-  background: none;
-  outline: none;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  line-height: 40px;
-  width: 0px;
-  font-weight: bold;
-}
-
-
-input {
-  padding: 4px 10px;
-  border: 0;
-  font-size: 16px;
-}
-
-.search-icon {
-  background-color: #800000;
-  width: 15px;
-  height: 15px;
-  margin-right: 1px;
-  margin-top: 15px;
-}
-
-.submit {
-  width: 70px;
-  background-color: #800000;
-  opacity: 2;
-  color: #ffffff;
-}
-
-.submit hover {
-  color: #fff;
-}
 .footer {
   background-color: black;
   padding: 8rem 0 3rem;
@@ -360,4 +315,6 @@ input {
   text-align: center;
   font-size: var(--fs-sm);
   color: var(--color-gray-light);
-}
+} 
+
+
