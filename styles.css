@@ -170,10 +170,11 @@ h5 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content:space-around;
   padding-right: 5%;
   padding-top: 5%;
   padding: bottom 1px;
+  align-items: stretch;
 } 
 
 .col {
