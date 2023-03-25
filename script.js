@@ -1,12 +1,19 @@
 const navLinks = document.querySelectorAll(".nav_link");
 
 navLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    // get the id of the section to scroll to
+  link.addEventListener("click", (event) => {
+    event.preventDefault(); 
+
     const id = link.getAttribute("href");
-    // scroll to the section with a smooth animation
-    document.querySelector(id).scrollIntoView({
-      behavior: "smooth",
-    });
+    console.log(id);
+
+    const targetElement = document.querySelector(id);
+    console.log(targetElement);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
   });
 });
