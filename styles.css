@@ -271,15 +271,18 @@ tr:hover {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #414c64;
+  color: #ffffff;
   font-size: 14px;
-  background: #f4f5f8;
+  background: #000000;
   margin-top: 20px;
+  display: inline-block;
+
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fafafc;
+  color: #fafafc;
+  background-color: #000000;
 }
 
 #footer .footer-top .footer-contact {
@@ -300,6 +303,8 @@ tr:hover {
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #777777;
+  display: inline-block;
+
 }
 
 #footer .footer-top h4 {
