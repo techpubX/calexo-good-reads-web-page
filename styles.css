@@ -26,6 +26,9 @@ body {
   height: 100%;
 
 }
+.search-icon {
+ color: black;
+}
 
 header {
   margin-top: 1%;

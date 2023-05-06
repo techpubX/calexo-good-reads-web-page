@@ -1,3 +1,4 @@
+document.onload = () => {
 const navLinks = document.querySelectorAll(".nav_link");
 
 navLinks.forEach((link) => {
@@ -17,3 +18,4 @@ navLinks.forEach((link) => {
     }
   });
 });
+}
