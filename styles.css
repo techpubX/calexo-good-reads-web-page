@@ -294,12 +294,19 @@ tr:hover {
 
 /* Footer
 -------------------------------------------------------------*/
+
+  .footer {
+    font-size: 14px;
+    background: #000000;
+    margin-top: 20px;
+    display: inline-block;
+}
 .footer__wrapper {
   padding: 8rem 0 3rem;
 }
 
 .footer__brand {
-  color: var(--color-title);
+  color: black;
   font-size: var(--fs-xl);
   margin-bottom: 1rem;
 }
