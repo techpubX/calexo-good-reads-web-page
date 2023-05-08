@@ -492,6 +492,9 @@ tr:hover {
   .discover__wrapper {
     grid-template-columns: repeat(3, max-content);
   }
+  .footer__title{
+    color: #fff;
+  }
     .copyright {
       color: #fff;
 
