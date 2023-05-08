@@ -315,6 +315,7 @@ tr:hover {
   color: white;
   font-size: var(--fs-xl);
   margin-bottom: 1rem;
+  font-size:20px;
 }
 
 .footer__brand span {
@@ -368,6 +369,7 @@ tr:hover {
 
 .footer__description {
   color:white;
+  font-size:15px;
 }
 
 /* Newsletter
@@ -395,6 +397,7 @@ tr:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  border-color: #000000;
 }
 
 .form__input {
