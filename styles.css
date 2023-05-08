@@ -360,6 +360,10 @@ tr:hover {
   padding: 3rem 0;
 }
 
+.footer__description {
+  color:white;
+}
+
 /* Newsletter
 -------------------------------------------------------------*/
 .newsletter__wrapper {
