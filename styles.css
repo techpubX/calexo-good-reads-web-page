@@ -360,6 +360,43 @@ tr:hover {
   padding: 3rem 0;
 }
 
+/* Newsletter
+-------------------------------------------------------------*/
+.newsletter__wrapper {
+  /* background-color: var(--color-title); */
+  background-color: white;
+  box-shadow: rgba(33, 33, 35, 0.222) 0px 7px 20px 0px;
+  border-radius: var(--border-radius-lg);
+  padding: 5rem;
+  justify-content: center;
+  text-align: center;
+  max-width: 80rem;
+}
+
+.newsletter__title,
+.newsletter__description {
+  color: var(--color-white);
+  margin-bottom: 2rem;
+}
+
+.form__group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+  color: var(--color-text);
+  border-radius: var(--border-radius-sm);
+  padding: 1.3rem 1.5rem;
+  border: none;
+}
+
+
 /* Scrolltop
 -------------------------------------------------------------*/
 .scrolltop {
