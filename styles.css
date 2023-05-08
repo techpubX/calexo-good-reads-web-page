@@ -306,7 +306,7 @@ tr:hover {
 }
 
 .footer__brand {
-  color: black;
+  color: white;
   font-size: var(--fs-xl);
   margin-bottom: 1rem;
 }
@@ -327,7 +327,7 @@ tr:hover {
 
 .social__link {
   font-size: var(--fs-lg);
-  color: var(--color-title);
+  color: white;
   transition: var(--transition);
 }
 
@@ -492,6 +492,9 @@ tr:hover {
   .discover__wrapper {
     grid-template-columns: repeat(3, max-content);
   }
+    .container d-md-flex py-4 {
+      color: #fff;
+    }
 
   .discover__item:nth-child(2) {
     transform: translateY(2rem);
