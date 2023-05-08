@@ -492,9 +492,11 @@ tr:hover {
   .discover__wrapper {
     grid-template-columns: repeat(3, max-content);
   }
-    .container d-md-flex py-4 {
+    .copyright {
       color: #fff;
+
     }
+
 
   .discover__item:nth-child(2) {
     transform: translateY(2rem);
