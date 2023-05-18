@@ -61,13 +61,12 @@ header li {
   width: 40px;
   } */
 
-  .home__title {
-    font-size:32px;
+  .home_title {
+    font-size:27px;
     line-height: 7.4rem; 
     letter-spacing: 0.5px;
     width: 100%;
     font-weight: 900;
-    margin-bottom: 1rem;
     color:white;
   }
 
