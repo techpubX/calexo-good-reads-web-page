@@ -1,4 +1,4 @@
-var typed = new Typed(".multiple-text", {
+var typed = new typed(".multiple-text", {
   strings: ["Discover", " Your Next", "Favourite Book"],
   typeSpeed: 100,
   backSpeed: 100,
