@@ -5,6 +5,7 @@ var typed = new Typed(".multiple-text", {
   backDelay: 100,
   loop: true,
 });
+
 document.onload = () => {
 const navLinks = document.querySelectorAll(".nav_link");
 
