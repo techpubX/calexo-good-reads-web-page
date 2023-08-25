@@ -46,11 +46,16 @@ header li {
 
 .card {
   margin-bottom: 20px;
+  
 }
 
 .card-img-top {
   max-height: 200px;
-  object-fit: cover;
+  object-fit: cover; 
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card-title {
@@ -58,7 +63,7 @@ header li {
 }
 
 .card-text {
-  font-size: 0.875rem;
+  font-size: 1.275rem;
 }
 
 .btn-primary {
