@@ -302,8 +302,13 @@ h4 {
   font-size: 23px;
 }
 
+
 p {
   color: aliceblue
+}
+
+.list {
+  color:white;
 }
 
 table {
