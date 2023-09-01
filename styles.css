@@ -72,8 +72,8 @@ header li {
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color:black;
+  border-color: black;
 }
 
 /* Add more custom styles as needed
@@ -217,7 +217,7 @@ h5 {
 
 .order {
   padding: 25px 5px;
-  background-color: #800000;
+  background-color:#591202;
   margin-top: 50px;
   color: #FFFFFF;
   height: 64px;
@@ -291,7 +291,7 @@ margin:30%
 
 h3 {
 
-  color: #800000;
+  color:#D9831A;
   font-size: 23px;
 
 }
