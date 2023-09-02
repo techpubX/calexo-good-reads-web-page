@@ -21,11 +21,15 @@ body {
 
 }
 .search-icon { 
+
  color:#000000;
 }
 
 #search-form {
   margin-top: 20px;
+  padding: 200px;
+  margin-top:-450px;
+  
 }
 
 #search-bar {
@@ -34,12 +38,13 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+
 }
 
 #search-bar:focus {
   outline: none;
-  border-color:#591202;
-  box-shadow:#591202;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 button {
@@ -53,7 +58,7 @@ button {
 }
 
 button:hover {
-  background-color:#591202;
+  background-color: #591202;
 }
 
 header {
