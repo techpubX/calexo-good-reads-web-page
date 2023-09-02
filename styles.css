@@ -20,8 +20,40 @@ body {
   height: 100%;
 
 }
-.search-icon {
+.search-icon { 
  color:#000000;
+}
+
+#search-form {
+  margin-top: 20px;
+}
+
+#search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color:#591202;
+  box-shadow:#591202;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:#D9831A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color:#591202;
 }
 
 header {
@@ -43,6 +75,8 @@ header li {
   text-decoration: none;
 
 }
+
+
 
 .card {
   margin-bottom: 20px;
