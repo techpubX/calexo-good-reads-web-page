@@ -28,7 +28,7 @@ body {
 #search-form {
   margin-top: 20px;
   padding: 200px;
-  margin-top:-450px;
+  margin-top:-350px;
   
 }
 
@@ -172,7 +172,7 @@ header li {
 nav {
   color: #fff;
   display: flex;
-  background: #800000;
+  background:#591202 ;
   border-radius:40px;
   padding: 5px;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.863);
