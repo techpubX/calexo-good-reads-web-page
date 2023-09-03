@@ -1,3 +1,16 @@
+@media (max-width:767px) {
+
+  /* Styles for mobile devices */
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets and larger screens */
+}
+
+@media (min-width: 1024px) {
+  /* Styles for desktops */
+}
+
 html {
 
 
