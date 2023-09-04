@@ -1,15 +1,17 @@
-@media (max-width:767px) {
+@media screen and (max-width: 600px) {}
+  body {
+    padding: 0; /* Remove padding to make better use of small screens */
+  }
 
-  /* Styles for mobile devices */
-}
+  #search-bar {
+    width: 100%; /* Make the search bar full width on small screens */
+    padding: 10px 5px; /* Adjust padding for smaller screens */
+  }
 
-@media (min-width: 768px) {
-  /* Styles for tablets and larger screens */
-}
-
-@media (min-width: 1024px) {
-  /* Styles for desktops */
-}
+  /* Adjust other styles as needed for better mobile readability and usability */
+  header {
+    font-size: 18px;
+  }
 
 html {
 
@@ -188,7 +190,9 @@ nav {
   transition: 0.35s;
 }
 
-
+.Nav_Content {
+  margin-top:-100px;
+}
 
 nav li a {
   color: #dddddd;
