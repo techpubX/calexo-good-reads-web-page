@@ -407,20 +407,8 @@ tr:hover {
   align-items: center;
   column-gap: 2rem;
 }
-
-.icon {
-
-margin-top:-35px;
-margin-bottom: 7px;
-padding-left:45x;
-margin-left:-65px;
-padding-right: 30;
-
-}
-
-
 .social__link {
-  background-color: var(--color-gray-lighten);
+  background-color:black;
   width: 4.5rem;
   height: 4.5rem;
   font-size: 2rem;
@@ -442,7 +430,7 @@ padding-right: 30;
 
   .footer {
     font-size: 14px;
-    background: #000000;
+    background:#591202;
     margin-top: 20px;
     display: inline-block;
 }
@@ -498,7 +486,7 @@ padding-right: 30;
 }
 
 .footer__link:hover {
-  color: var(--color-primary);
+  color:var(--color-primary);
 }
 
 .footer__copyright {
@@ -513,6 +501,7 @@ padding-right: 30;
 }
 
 * Contact Us Styles */
+
 .contact {
  text-align: center;
  padding: 30px 0;
