@@ -400,6 +400,43 @@ tr:hover {
 
 }
 
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.icon {
+
+margin-top:-35px;
+margin-bottom: 7px;
+padding-left:45x;
+margin-left:-65px;
+padding-right: 30;
+
+}
+
+
+.social__link {
+  background-color: var(--color-gray-lighten);
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.social__link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+
 /* Footer
 -------------------------------------------------------------*/
 
