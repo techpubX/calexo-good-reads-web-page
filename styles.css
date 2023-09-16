@@ -36,6 +36,16 @@ body {
 
 }
 
+  .head-subname {
+    font-size:27px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-weight: 900;
+    color:#D9831A;
+    text-align: center;
+    font-family:'Kaushan Script'; 
+    }
+
 #search-form {
   margin-top: 20px;
   padding: 200px;
