@@ -141,21 +141,6 @@ header li {
   } */
 
  
-
-.header-btn {
-  /* align-self: flex-start; */
-  /* margin: 2rem auto 0; */
-  /* padding: 1rem 6rem; */
-  border-radius:20rem; 
-  border: none;
-  /* background: rgba(255, 255, 255, 0.5); */
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-
-  /* width: 80%; */
-}
-
 .header-search {
   padding: 2rem 5rem;
   border-radius: 40px;
