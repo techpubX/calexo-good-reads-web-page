@@ -12,7 +12,12 @@
   const fullDescription = document.querySelector(".full-description");
   
   seeMoreButton.addEventListener("click", function () {
-    fullDescription.style.display = "block";
-    seeMoreButton.style.display = "none";
+    if (fullDescription.style.display === "block") {
+      fullDescription.style.display = "none";
+      seeMoreButton.textContent = "See More";
+    } else {
+      fullDescription.style.display = "block";
+      seeMoreButton.textContent = "See Less";
+    }
   });
 });
