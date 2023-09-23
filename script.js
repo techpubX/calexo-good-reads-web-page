@@ -1,10 +1,12 @@
-var typed = new typed(".multiple-text", {
-  strings: ["Discover", " Your Next", "Favourite Book"],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backDelay: 100,
-  loop: true,
-});
+ // JavaScript for responsive navigation
+ 
+ const navToggle = document.getElementById("nav-toggle");
+ const navList = document.querySelector(".nav__list");
+
+ navToggle.addEventListener("click", () => {
+     navList.classList.toggle("show");
+ });
+
 
 document.onload = () => {
 const navLinks = document.querySelectorAll(".nav_link");

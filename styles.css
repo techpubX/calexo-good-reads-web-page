@@ -72,7 +72,7 @@ body {
 
 button {
   padding: 10px 20px;
-  background-color:#D9831A;
+  background-color:maroon;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -85,6 +85,7 @@ button:hover {
 }
 
 header {
+  
   margin-top: -13%; 
   height:60px;
   background-color: #591202;
@@ -126,8 +127,8 @@ header {
 }
 
 .btn-primary:hover {
-  background-color:black;
-  border-color: black;
+  background-color:#591202;
+  border-color:#591202;
 }
 
 
@@ -288,6 +289,10 @@ margin:30%
   color: white;
   width: 100px;
 
+}
+
+.btn:hover {
+background-color: #591202;
 }
 
 .hover {
