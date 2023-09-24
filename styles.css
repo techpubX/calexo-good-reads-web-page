@@ -20,6 +20,10 @@ html {
 
 }
 
+.product-description {
+  padding-right: 550px;
+}
+
 body {
 
   /* flex-direction: column;
@@ -102,6 +106,7 @@ header {
 
 
 .card {
+
   margin-bottom: 20px;
   
 }
@@ -113,6 +118,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-right:750px;
 }
 
 .card-title {
@@ -257,18 +263,6 @@ margin:30%
   padding-left:850px;
   color:#fff;
   margin-top: 650px;
-}
-
-
-.descript {
-
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 32px;
-  color: aliceblue;
-  padding-top: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 0px;
 }
 
 .btn {
