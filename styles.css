@@ -83,7 +83,7 @@ button {
 }
 
 button:hover {
-  background-color: #591202;
+  background-color:#591202;
 }
 
 header {
@@ -122,17 +122,6 @@ header {
 .card-text {
   font-size: 1.275rem;
 }
-
-.btn-primary {
-  background-color:black;
-  border-color: black;
-}
-
-.btn-primary:hover {
-  background-color:#591202;
-  border-color:#591202;
-}
-
 
 /* Add more custom styles as needed
 
@@ -287,22 +276,18 @@ margin:30%
   margin: 5px;
   font-size: 15px;
   font-weight: light;
-  border: 5px solid maroon;
+  border: 5px solid #591202;
   opacity: 2;
   border-radius: 5px;
-  background-color: #800000;
+  background-color: #591202;
   color: white;
   width: 100px;
 
 }
 
-.btn:hover {
-background-color: #591202;
-}
-
-.hover {
+/* .hover {
   color: #fff;
-}
+} */
 
 h3 {
 
