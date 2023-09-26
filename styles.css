@@ -203,6 +203,7 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
 
 }
+
 .product-description .full-description {
   display: none;
 }
@@ -222,10 +223,12 @@ h5 {
 }
 
 .order {
+
   padding: 25px 5px;
   background-color:#591202;
   margin-top: 50px;
-  color: #FFFFFF;
+  color:#D9831A;
+  font-family:'Kaushan Script';
   height: 64px;
   font-size: 140%;
   text-align: center;
@@ -286,7 +289,6 @@ margin:30%
 h3 {
 
   color:#D9831A;
-  font-size: 23px;
   font-family:'Kaushan Script';
   font-size:25px;
 
