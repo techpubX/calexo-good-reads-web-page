@@ -8,7 +8,7 @@
     padding: 10px 5px; /* Adjust padding for smaller screens */
   }
 
-  /* Adjust other styles as needed for better mobile readability and usability */
+  
   header {
     font-size: 5px;
   }
@@ -287,6 +287,8 @@ h3 {
 
   color:#D9831A;
   font-size: 23px;
+  font-family:'Kaushan Script';
+  font-size:25px;
 
 }
 
