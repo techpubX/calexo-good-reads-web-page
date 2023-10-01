@@ -20,6 +20,14 @@ html {
 
 }
 
+.Top-notch {
+  font-family:'Qwitcher Grypen';
+  font-size:35px;
+  color:#D9831A;
+  opacity:2;
+  font-weight:1000;
+}
+
 .product-description {
   padding-right: 550px;
 }
