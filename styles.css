@@ -30,11 +30,15 @@ html {
 }
 
 .product-description {
-  padding-right: 550px;
+  padding-right:620px;
 }
 
 .product-description .full-description {
   display: none;
+}
+
+.short-description {
+  padding: left 20px;
 }
 
 body {
@@ -69,6 +73,11 @@ body {
   padding: 200px;
   margin-top:-350px;
   
+}
+
+.image-inside {
+  max-height: 200px;
+  max-width: 200px;
 }
 
 #search-bar {
@@ -117,6 +126,9 @@ header {
 
 }
 
+.container mt-4 {
+  justify-content:space-around;
+}
 
 .card {
 
@@ -128,10 +140,13 @@ header {
   max-height: 200px;
   object-fit: cover; 
   margin:auto;
+  justify-items:center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-right:750px;
+  align-items:center;
+  padding-right:650px;
+  flex-direction: row;
 }
 
 .card-title {
